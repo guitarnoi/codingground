@@ -155,10 +155,6 @@ puts "------------------------------------------------------------------------"
 
 puts "ข้อที 9"
 
-abbr_states.each{ |key,value|
-    if key[0].downcase==value[0].downcase && key[1].downcase==value[1].downcase
-        puts value
-    end    
-}
+
 
 puts "------------------------------------------------------------------------"
